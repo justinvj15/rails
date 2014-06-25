@@ -465,7 +465,7 @@
 
     *Eric Chahin*
 
-*   `sanitize_sql_like` helper method to escape a string for safe use in an SQL
+*   `sanitize_sql_like` helper method to escape a string for safe use in a SQL
     LIKE statement.
 
     Example:
@@ -501,7 +501,7 @@
     *Lauro Caetano*
 
 *   Calling `delete_all` on an unloaded `CollectionProxy` no longer
-    generates an SQL statement containing each id of the collection:
+    generates a SQL statement containing each id of the collection:
 
     Before:
 
